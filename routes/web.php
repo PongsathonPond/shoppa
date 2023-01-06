@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/index', [RouteController::class, 'index'])->name('index');
+Route::post('/addbooking/add', [RouteController::class, 'store'])->name('test');

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Auth;
-
+use Illuminate\Http\Request;
 class RouteController extends Controller
 {
     public function index()
@@ -17,5 +17,11 @@ class RouteController extends Controller
 
             return view('page.users.route.index');
         }
+    }
+
+     public function store(Request $request)
+    {
+
+        dd($request);
     }
 }

@@ -183,7 +183,7 @@
         <div class="container-fluid py-4">
 
 
-            @include('include.content')
+            @include('include.contentuser')
 
 
         </div>
